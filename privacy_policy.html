@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade - Localizar Gerência</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 24px;
+      color: #1a73e8;
+    }
+    h2 {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 15px;
+      }
+      h1 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Política de Privacidade - Extensão Localizar Gerência</h1>
+  <p>Última atualização: 21 de junho de 2025</p>
+  <p>A extensão "Localizar Gerência" é uma ferramenta desenvolvida para operadores de suporte técnico, projetada para facilitar o provisionamento e diagnóstico de ONUs em sistemas de fibra óptica, como AMS Nokia e SmartOLT. Esta Política de Privacidade explica como a extensão lida com dados e protege sua privacidade.</p>
+  
+  <h2>1. Dados Coletados</h2>
+  <p>A extensão não coleta, armazena ou compartilha dados pessoais do usuário. Ela extrai informações públicas de páginas web visitadas, como território, cidade e empresa, para fins de consulta de equipamentos e provisionamento de ONUs. Esses dados são armazenados localmente no navegador (via chrome.storage.local) e não são enviados a servidores externos.</p>
+  
+  <h2>2. Uso dos Dados</h2>
+  <p>Os dados extraídos (território, cidade, empresa) são usados exclusivamente para:</p>
+  <ul>
+    <li>Identificar a gerência apropriada para provisionamento ou diagnóstico.</li>
+    <li>Consultar tabelas de equipamentos armazenadas localmente.</li>
+    <li>Gerar comandos para configuração de ONUs AMS Nokia.</li>
+  </ul>
+  <p>A extensão também permite importar/exportar tabelas JSON localmente, sem envolvimento de servidores externos.</p>
+  
+  <h2>3. Recursos Externos</h2>
+  <p>A extensão utiliza os seguintes recursos externos, acessados apenas por ação do usuário:</p>
+  <ul>
+    <li><a href="https://click.smartolt.com">SmartOLT</a>: Para configuração de ONUs.</li>
+    <li><a href="https://forms.gle/uQEAJjwYZXarPBdo7">Google Forms</a>: Para relatar erros ou problemas.</li>
+    <li>Font Awesome (CDN): Para ícones de interface, sem acesso a dados do usuário.</li>
+  </ul>
+  
+  <h2>4. Permissões</h2>
+  <p>A extensão solicita permissões para:</p>
+  <ul>
+    <li><strong>activeTab</strong>: Acessar a aba ativa para extrair dados da página.</li>
+    <li><strong>scripting</strong>: Injetar scripts para captura de dados e exibição de tabelas.</li>
+    <li><strong>storage</strong>: Armazenar tabelas e dados capturados localmente.</li>
+    <li><strong>tabs</strong>: Abrir URLs externas e interagir com abas para exibir tabelas.</li>
+  </ul>
+  <p>Essas permissões são usadas apenas para as funcionalidades descritas.</p>
+  
+  <h2>5. Segurança</h2>
+  <p>Os dados processados pela extensão permanecem no dispositivo do usuário e não são compartilhados com terceiros. A extensão segue as Políticas do Programa para Desenvolvedores da Chrome Web Store, garantindo segurança e privacidade.</p>
+  
+  <h2>6. Contato</h2>
+  <p>Para dúvidas ou preocupações sobre esta Política de Privacidade, entre em contato: [INSIRA E-MAIL DE SUPORTE].</p>
+</body>
+</html>
